@@ -1,0 +1,15 @@
+int main()
+{
+    int base, pow, result = 1;
+    printf("Enter base and power:");
+    scanf("%d%d", &base, &pow);
+    while(pow != 0){
+        result *= base;
+        --pow;
+    }
+    //for(result=1; pow!=0; --pow){
+    //}
+    printf("Answer:%d", result);
+    return 0;
+
+}
